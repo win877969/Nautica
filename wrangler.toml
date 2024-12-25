@@ -1,9 +1,52 @@
-name = "nautica"
+
+name = "vpn" # todo
 main = "_worker.js"
-compatibility_date = "2023-08-23"
+compatibility_date = "2024-05-26"
+
 
 [unsafe.metadata.observability]
 enabled = true
 
 [observability.logs]
 enabled = true
+
+
+[[routes]]
+pattern = "vpn.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "ava.game.naver.com.vpn.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "graph.instagram.com.vpn.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "quiz.int.vidio.com.vpn.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "live.iflix.com.vcip.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "support.zoom.us.vpn.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "blog.webex.com.vpn.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "investors.spotify.com.vpn.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "cache.netflix.com.vpn.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "zaintest.vuclip.com.vpn.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "io.ruangguru.com.vpn.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "business.blibli.com.vpn.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "api.midtrans.com.vpn.ndeso.web.id"
+custom_domain = true
